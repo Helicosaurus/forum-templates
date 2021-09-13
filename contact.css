@@ -98,12 +98,13 @@
 }
 .storyFDONG {
   display: inline-block;
+  position: absolute;
   vertical-align: top;
   width: 245px;
   height: 155px;
   padding: 5px;
-  overflow: hidden;
-  text-align: justify;
+  overflow: hidden scroll;
+  text-align: left;
   font-size: 11px;
   line-height: 14px;
   background: rgba(255, 255, 255, 0.9);
