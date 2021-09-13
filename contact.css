@@ -4,8 +4,10 @@
   text-align: left;
   font-family: Arial;
   line-height: 16px;
-  background: #a9a9a9;
+  background: var(--main-second);
   box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+  outline: 10px solid var(--main-first);
+  border: 1px solid var(--main-second);
 }
 .FDONG a {
   text-decoration: none !important;
@@ -46,11 +48,11 @@
   letter-spacing: 2px;
   text-transform: uppercase;
   line-height: 20px;
-  background: rgba(250, 250, 250, 0.5);
-  color: black;
+  background: var(--main-first);
+  color: var(--main-second);
 }
 .abtFDONG:hover .tleFDONG {
-  background: rgba(250, 250, 250, 0.7);
+  background: var(--main-fourth);
 }
 .abtFDONG .boxFDONG {
   position: absolute;
@@ -82,8 +84,8 @@
   font-weight: bold;
   font-size: 11px;
   line-height: 15px;
-  background: white;
-  color: black;
+  background: var(--main-first);
+  color: var(--main-color);
 }
 .infosFDONG a {
   display: block;
@@ -95,8 +97,8 @@
   text-transform: uppercase;
   font-weight: bold;
   font-size: 11px;
-  background: white;
-  color: black;
+  background: var(--main-first);
+  color: var(--main-color);
 }
 .storyFDONG {
   display: inline-block;
@@ -109,8 +111,8 @@
   text-align: left;
   font-size: 11px;
   line-height: 14px;
-  background: rgba(255, 255, 255, 0.9);
-  color: black;
+  background: var(--main-first);
+  color: var(--main-second);
 }
 .storyFDONG:hover {
   overflow-y: auto;
@@ -131,8 +133,8 @@
   text-transform: uppercase;
   font-size: 10px;
   line-height: 16px;
-  background: #191919;
-  color: white;
+  background: var(--main-second);
+  color: var(--main-first);
   margin: 2px auto;
 }
 
@@ -152,11 +154,11 @@
   letter-spacing: 2px;
   text-transform: uppercase;
   line-height: 20px;
-  background: rgba(0, 0, 0, 0.2);
-  color: white;
+  background: var(--main-second);
+  color: var(--main-first);
 }
 .searchFDONG:hover .tleFDONG {
-  background: rgba(0, 0, 0, 0.4);
+  background: var(--main-fifth);
 }
 .searchFDONG .boxFDONG {
   position: absolute;
@@ -171,8 +173,8 @@
   line-height: 18px;
   transform: scale(0);
   transition: all 0.45s ease;
-  background: white;
-  color: black;
+  background: var(--main-first);
+  color: var(--main-second);
 }
 .searchFDONG:hover .boxFDONG {
   transform: scale(1);
