@@ -82,6 +82,8 @@
   font-weight: bold;
   font-size: 11px;
   line-height: 15px;
+  background: white;
+  color: black;
 }
 .infosFDONG a {
   display: block;
@@ -129,6 +131,9 @@
   text-transform: uppercase;
   font-size: 10px;
   line-height: 16px;
+  background: #191919;
+  color: white;
+  margin: 2px auto;
 }
 .adjFDONG span:nth-of-type(4) {
   margin-right: 0;
@@ -304,12 +309,4 @@
 }
 .rsDONG:hover div {
   transform: scale(1);
-}
-.infosFDONG span {
-  background: white;
-  color: black;
-}
-.adjFDONG span {
-  background: #191919;
-  color: white;
 }
