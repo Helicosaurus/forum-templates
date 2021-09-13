@@ -4,6 +4,8 @@
   text-align: left;
   font-family: Arial;
   line-height: 16px;
+  background: #a9a9a9;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
 }
 .FDONG a {
   text-decoration: none !important;
@@ -47,6 +49,7 @@
   text-transform: uppercase;
   line-height: 20px;
   background: rgba(250, 250, 250, 0.5);
+  color: black;
 }
 .abtFDONG:hover .tleFDONG {
   background: rgba(250, 250, 250, 0.7);
@@ -95,6 +98,8 @@
   text-transform: uppercase;
   font-weight: bold;
   font-size: 11px;
+  background: white;
+  color: black;
 }
 .storyFDONG {
   display: inline-block;
@@ -106,6 +111,8 @@
   text-align: justify;
   font-size: 11px;
   line-height: 14px;
+  background: rgba(255, 255, 255, 0.9);
+  color: black;
 }
 .storyFDONG:hover {
   overflow-y: auto;
@@ -148,6 +155,7 @@
   text-transform: uppercase;
   line-height: 20px;
   background: rgba(0, 0, 0, 0.2);
+  color: white;
 }
 .searchFDONG:hover .tleFDONG {
   background: rgba(0, 0, 0, 0.4);
@@ -167,6 +175,8 @@
   -webkit-transform: scale(0);
   transition: all 0.45s ease;
   -webkit-transition: all 0.45s ease;
+  background: white;
+  color: black;
 }
 .searchFDONG:hover .boxFDONG {
   transform: scale(1);
@@ -308,4 +318,12 @@
 .rsDONG:hover div {
   transform: scale(1);
   -webkit-transform: scale(1);
+}
+.infosFDONG span {
+  background: white;
+  color: black;
+}
+.adjFDONG span {
+  background: #191919;
+  color: white;
 }
