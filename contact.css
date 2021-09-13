@@ -1,12 +1,4 @@
 .FDONG {
-  --main-first: #323333;
-  --main-fourth: #3e4040;
-  --main-fifth: #848484;
-  --main-second: #bbbfbf;
-  --main-color: var(--main-blue);
-}
-
-.FDONG {
   margin: auto;
   width: 500px;
   text-align: left;
@@ -39,6 +31,7 @@
   min-height: 270px;
 }
 .abtFDONG {
+  width: 250px;
   display: inline-block;
   vertical-align: top;
 }
@@ -143,6 +136,8 @@
   margin-right: 0;
 }
 .searchFDONG {
+  position: absolute;
+  width: 250px;
   display: inline-block;
   vertical-align: top;
 }
