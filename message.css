@@ -66,11 +66,8 @@
 .tlewrapYPL {
   position: absolute;
   z-index: 4;
-  margin-top: 10px;
-  margin-left: 15px;
-  width: 455px;
-  height: 125px;
-  padding: 5px;
+  width: 500px;
+  height: 150px;
   overflow: hidden;
   font-size: 28px;
   text-align: center;
@@ -79,6 +76,16 @@
   transform: scale(1);
   transition: all 0.65s ease;
   transition-delay: 0.85s;
+}
+
+.tleYPL {
+  position: relative;
+  top: 20px;
+  width: fit-content;
+  margin: 0 auto;
+  padding: 10px;
+  background-color: var(--main-coloralpha);
+  border-radius: 30px;
 }
 
 .bannYPL:hover .tlewrapYPL {
