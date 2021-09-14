@@ -8,7 +8,7 @@
 .bannYPL {
   border-top: 5px solid;
   border-bottom: 5px solid;
-  border-color: var(--main-fourth);
+  border-color: var(--main-color);
 }
 #ftYPL {
   position: absolute;
@@ -105,7 +105,7 @@
   border-top: 2px solid;
   border-bottom: 2px solid;
   transition: all 0.65s ease;
-  border-color: var(--main-color);
+  border-color: var(--main-fourth);
 }
 .bannYPL:hover .bgIYPL {
   opacity: 0.8;
