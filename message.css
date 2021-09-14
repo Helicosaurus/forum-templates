@@ -63,7 +63,7 @@
   opacity: 1;
   transition: all 0.65s linear;
 }
-.tleYPL {
+.tlewrapYPL {
   position: absolute;
   z-index: 4;
   margin-top: 10px;
@@ -80,7 +80,8 @@
   transition: all 0.65s ease;
   transition-delay: 0.85s;
 }
-.bannYPL:hover .tleYPL {
+
+.bannYPL:hover .tlewrapYPL {
   height: 0;
   opacity: 0;
   transform: scale(0.5);
