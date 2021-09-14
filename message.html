@@ -1,14 +1,39 @@
 <link href="https://helicosaurus.github.io/forum-templates/message.css" rel="stylesheet" type="text/css" />
 <!-- COULEURS -->
-<!-- Add c5 fo main-color for transparency-->
 <style>
   .YPL {
     --main-first: #323333;
     --main-fourth: #3e4040;
     --main-fifth: #848484;
     --main-second: #bbbfbf;
-    --main-color: #446c85;
-    --main-coloralpha: #446c85c5;
+    --main-blue: #446c85;
+    --main-blue-alpha: #446c85c5;
+    --main-purple: #6a4c76;
+    --main-purple-alpha: #6a4c76c5;
+    --main-red: #855151;
+    --main-red-alpha: #855151c5;
+    --main-color: var(--main-blue);
+    --main-color-alpha: var(--main-blue-alpha);
+  }
+
+  .emlYPL {
+    margin: 20px 0 20px -50px;
+    padding: 10px 10px 10px 20px;
+    background-color: var(--main-color);
+    color: var(--main-second);
+  }
+
+  .emlYPL::before {
+    content: "";
+    position: absolute;
+    margin-top: -25px;
+    margin-left: -40px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 0 15px 15px;
+    border-color: transparent;
+    border-bottom-color: var(--main-fourth);
   }
 </style>
 <div class="YPL">
@@ -44,6 +69,9 @@
   <div class="msgYPL">
     <p>Un paragraphe.</p>
     <p>Un autre paragraphe.</p>
+    <div class="emlYPL">
+      <p>"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam harum nobis quia vel ducimus ut, asperiores hic aperiam odio placeat."</p>
+    </div>
     <p>
       Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto quis iure temporibus dolor natus maiores inventore dolore ipsam doloribus. Eum sunt possimus impedit molestiae, ullam soluta totam
       officia a quaerat odit praesentium corrupti suscipit aspernatur ducimus aperiam optio adipisci cupiditate esse culpa est numquam dolorum deserunt. Veritatis assumenda aspernatur beatae tenetur

@@ -83,7 +83,7 @@
   width: fit-content;
   margin: 0 auto;
   padding: 10px;
-  background-color: var(--main-coloralpha);
+  background-color: var(--main-color-alpha);
   border-radius: 30px;
 }
 
