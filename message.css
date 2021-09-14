@@ -6,6 +6,7 @@
 .bannYPL {
   border-top: 5px solid;
   border-bottom: 5px solid;
+  border-color: #1d222c;
 }
 #ftYPL {
   position: absolute;
@@ -17,14 +18,11 @@
   text-align: left;
   opacity: 0;
   transition: opacity 1s ease;
-  -webkit-transition: opacity 1s ease;
   transition-delay: 0s;
-  -webkit-transition-delay: 0s;
 }
 .bannYPL:hover #ftYPL {
   opacity: 1;
   transition-delay: 0.75s;
-  -webkit-transition-delay: 0.75s;
 }
 .ftYPL {
   display: inline-block;
@@ -47,7 +45,9 @@
   font-family: Arial;
   opacity: 0;
   transition: opacity 0.55s;
-  -webkit-transition: opacity 0.55s;
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  text-shadow: 1px 0 1px rgba(0, 0, 0, 0.1);
 }
 #ftYPL:hover .ftYPL p {
   opacity: 1;
@@ -60,7 +60,6 @@
   border-radius: 100px;
   opacity: 1;
   transition: all 0.65s linear;
-  -webkit-transition: all 0.65s linear;
 }
 .tleYPL {
   position: absolute;
@@ -76,27 +75,26 @@
   text-align: center;
   font-family: Asap;
   line-height: 26px;
-  transform: rotate(0) scale(1);
-  -webkit-transform: rotate(0) scale(1);
+  transform: scale(1);
   transition: all 0.65s ease;
-  -webkit-transition: all 0.65s ease;
   transition-delay: 0.85s;
-  -webkit-transition-delay: 0.85s;
 }
 .bannYPL:hover .tleYPL {
   height: 0;
   opacity: 0;
-  transform: rotate(-5deg) scale(0.5);
-  -webkit-transform: rotate(-5deg) scale(0.5);
+  transform: scale(0.5);
   transition-delay: 0s;
-  -webkit-transition-delay: 0s;
 }
-.tleYPL span:nth-of-type(1) {
-  height: 125px;
-}
-.tleYPL span {
+.tleYPL p {
   display: inline-block;
   vertical-align: middle;
+}
+.tleYPL .titleYPL {
+  color: white;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
+}
+.tleYPL .alignementYPL {
+  font-size: 24px;
 }
 .bgIYPL {
   width: 500px;
@@ -104,12 +102,11 @@
   border-top: 2px solid;
   border-bottom: 2px solid;
   transition: all 0.65s ease;
-  -webkit-transition: all 0.65s ease;
+  border-color: #81383f;
 }
 .bannYPL:hover .bgIYPL {
   opacity: 0.8;
   filter: grayscale(0.3);
-  -webkit-filter: grayscale(0.3);
 }
 .msgYPL {
   padding: 20px 35px 30px 35px;
@@ -118,6 +115,8 @@
   font-size: 11px;
   font-family: Arial;
   line-height: 16px;
+  background: #242a36;
+  color: rgba(250, 250, 250, 0.9);
 }
 .cdtYPL {
   position: absolute;
@@ -125,11 +124,8 @@
   margin-left: -15px;
   margin-top: 45px;
   transform: scale(0);
-  -webkit-transform: scale(0);
   transition: transform ease-in-out 0.75s;
-  -webkit-transition: -webkit-transform ease-in-out 0.75s;
 }
 .YPL:hover .cdtYPL {
   transform: scale(1);
-  -webkit-transform: scale(1);
 }
