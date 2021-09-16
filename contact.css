@@ -10,6 +10,7 @@
 }
 .FDONG a {
   text-decoration: none !important;
+  color: var(--main-second);
 }
 .cdtFDONG {
   position: absolute;
@@ -46,7 +47,6 @@
   font-size: 14px;
   font-weight: bold;
   letter-spacing: 2px;
-  text-transform: uppercase;
   line-height: 20px;
   background: var(--main-first);
   color: var(--main-second);
