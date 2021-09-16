@@ -10,7 +10,6 @@
 }
 .FDONG a {
   text-decoration: none !important;
-  color: var(--main-second) !important;
 }
 .cdtFDONG {
   position: absolute;
@@ -266,43 +265,5 @@
 }
 .abtDONG:hover .boxDONG {
   opacity: 1;
-  transform: scale(1);
-}
-.rsDONG {
-  display: inline-block;
-  vertical-align: top;
-}
-.rsDONG span {
-  display: block;
-  width: 115px;
-  height: 20px;
-  padding: 5px;
-  overflow: hidden;
-  text-align: center;
-  font-size: 12px;
-  font-weight: bold;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  line-height: 22px;
-}
-.rsDONG:hover span {
-  background: rgba(0, 0, 0, 0.2);
-}
-.rsDONG div {
-  position: absolute;
-  z-index: 2;
-  margin-top: -150px;
-  margin-left: -120px;
-  width: 235px;
-  height: 110px;
-  padding: 5px;
-  overflow-y: auto;
-  text-align: justify;
-  font-size: 10px;
-  line-height: 16px;
-  transform: scale(0);
-  transition: all 0.45s ease;
-}
-.rsDONG:hover div {
   transform: scale(1);
 }
