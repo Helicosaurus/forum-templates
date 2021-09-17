@@ -81,7 +81,7 @@
   overflow: hidden;
   text-align: center;
   font-weight: bold;
-  font-size: 11px;
+  font-size: 14px;
   line-height: 15px;
   background: var(--main-color);
   color: var(--main-second);
@@ -107,8 +107,8 @@
   padding: 5px;
   overflow: hidden scroll;
   text-align: left;
-  font-size: 11px;
-  line-height: 14px;
+  font-size: 12px;
+  line-height: 16px;
   background: var(--main-first);
   color: var(--main-second);
 }
@@ -167,7 +167,7 @@
   padding: 10px;
   overflow-y: auto;
   text-align: justify;
-  font-size: 11px;
+  font-size: 12px;
   line-height: 18px;
   transform: scale(0);
   transition: all 0.45s ease;
