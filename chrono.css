@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Fondamento:ital@0;1&family=Roboto+Slab&display=swap");
+
+.chronoHLC {
+  margin: auto;
+  width: 500px;
+  text-align: left;
+  font-family: "Roboto Slab", serif;
+  font-size: 13px;
+  line-height: 20px;
+  color: var(--main-second);
+  background: var(--main-first);
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+  padding: 20px 30px;
+  border-radius: 15px 15px 30px 30px;
+}
+
+.chronoHLC a {
+  text-decoration: none;
+  color: var(--main-second);
+  text-shadow: 3px 3px 5px rgb(0 0 0 / 80%);
+}
+
+.chronoHLC a::before {
+  content: ">> ";
+}
+
+.chronoHLC h1 {
+  font-family: "Fondamento", cursive;
+  font-style: italic;
+  text-align: center;
+}
+
+.bgblueHLC {
+  background-color: var(--main-blue);
+}
+
+.bgredHLC {
+  background-color: var(--main-red);
+}
+
+.bgpurpleHLC {
+  background-color: var(--main-purple);
+}
+
+.topicHLC {
+  font-size: 13.5px;
+  color: var(--main-second);
+  overflow: hidden;
+}
+
+.topicHLC::before {
+  content: "";
+  position: absolute;
+  margin-top: -25px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-color: transparent;
+}
+
+.tleftHLC {
+  margin: 20px 0 20px -45px;
+  padding: 10px 10px 10px 20px;
+  border-radius: 0px 15px 15px 15px;
+}
+
+.tleftHLC::before {
+  margin-left: -20px;
+  border-width: 0 0 15px 15px;
+  border-bottom-color: var(--main-fourth);
+}
+
+.trightHLC {
+  margin: 20px -45px 20px 0px;
+  padding: 10px 20px 10px 10px;
+  border-radius: 15px 0px 15px 15px;
+}
+
+.trightHLC::before {
+  margin-left: 520px;
+  border-width: 15px 0 0 15px;
+  border-left-color: var(--main-fourth);
+}
+
+.headerHLC {
+  margin: 15px 0;
+  position: relative;
+}
+
+.titreHLC {
+  font-size: 18px;
+  font-family: "Fondamento";
+}
+
+.statutHLC {
+  position: absolute;
+  right: 10px;
+  color: var(--main-fifth);
+}
+
+.statutHLC::before {
+  content: "[";
+}
+
+.statutHLC::after {
+  content: "]";
+}
+
+.todoHLC {
+  color: rgb(195 195 0);
+  font-weight: 600;
+}
+
+.contentHLC {
+  max-height: 0;
+  opacity: 0;
+  transition: all 1s ease;
+}
+
+.tleftHLC:hover .contentHLC,
+.trightHLC:hover .contentHLC {
+  opacity: 1;
+  max-height: 100vh;
+  transition: all 1s ease 0.25s;
+}
