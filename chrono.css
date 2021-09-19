@@ -123,3 +123,27 @@
   max-height: 100vh;
   transition: all 1s ease 0.25s;
 }
+
+.featHLC {
+  display: inline-block;
+  text-align: center;
+  margin: auto 8px;
+  width: 100px;
+  border: solid 2px var(--main-fifth);
+  border-radius: 24px;
+  padding: 2px;
+}
+
+.featHLC img {
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  margin: 0;
+  border: none;
+  padding: 0;
+}
+
+.featHLC p {
+  margin: 0;
+  font-weight: bold;
+}
